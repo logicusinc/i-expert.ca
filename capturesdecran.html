@@ -1,0 +1,443 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>i-Expert - Capture d'écran</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="i-Expert, logiciel de gestion des interventions d'experts en nettoyage et nettoyage après sinistre, en rénovation, en construction, en ébénisterie, en décontamination, en qualité de l'air, en aménagement, en environnement et maintenance">
+<meta name="keywords" content="nettoyage, dégât d'eau, feu, fumée, huile, incendie, dégât, dégât d'huile, sinistre, nettoyage après sinistre, moisissure, environnement, rénovation, construction, ébénisterie, décontamination, qualité de l'air, aménagement, environnement, maintenance, déversement, nettoyeur">
+<meta name="author" content="Logicus Informatique inc.">
+<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+
+<link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="screen">
+<link rel="stylesheet" href="css/bootstrap-responsive.css" type="text/css" media="screen"> 
+<link rel="stylesheet" href="css/touchTouch.css" type="text/css" media="screen">
+<link rel="stylesheet" href="css/isotope.css" type="text/css" media="screen">      
+<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+
+<script type="text/javascript" src="js/jquery.js"></script>  
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/superfish.js"></script>
+
+<script type="text/javascript" src="js/jquery.ui.totop.js"></script>
+
+<script type="text/javascript" src="js/touchTouch.jquery.js"></script>
+<script type="text/javascript" src="js/jquery.isotope.min.js"></script>
+<script>
+$(document).ready(function() {
+	// 
+
+
+
+}); //
+$(window).load(function() {
+	// isotop
+	var $container = $('#isotope-items'),
+		$optionSet = $('#isotope-options'), 
+	    $optionSets = $('#isotope-filters'), 
+	    $optionLinks = $optionSets.find('a'); 
+    $container.isotope({ 
+        filter: '*',
+        layoutMode: 'fitRows'
+    });  
+   	$optionLinks.click(function(){ 
+   		var $this = $(this); 
+    	// don't proceed if already selected 
+		if ( $this.hasClass('selected') ) { 
+			return false; 
+		}    		
+   		$optionSet.find('.selected').removeClass('selected'); 
+   		$this.addClass('selected');
+
+        var selector = $(this).attr('data-filter'); 
+        $container.isotope({ 
+            filter: selector            
+        }); 
+      	return false; 
+    });    	
+	$(window).on("resize", function( event ) {	
+		$container.isotope('reLayout');		
+	});		
+
+	// touchTouch
+	$('.thumb-isotope .thumbnail a').touchTouch();
+
+}); //
+</script>		
+<!--[if lt IE 8]>
+		<div style='text-align:center'><a href="http://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img src="http://www.theie6countdown.com/images/upgrade.jpg"border="0"alt=""/></a></div>  
+	<![endif]-->    
+
+<!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>      
+  <link rel="stylesheet" href="css/ie.css" type="text/css" media="screen">
+<![endif]-->
+</head>
+
+<body class="subpage">
+<div id="main">
+
+<div class="top1">
+<div class="container">
+<div class="row">
+<div class="span12">
+<div class="top1_inner clearfix">
+<header><div class="logo_wrapper"><a href="index.html" class="logo"><img src="images/logo.png" alt=""></a></div></header>	
+<div class="phone1"><div class="txt1">T&eacute;l&eacute;phonez : <span> 1 888 824-7474</span></div><div class="over1"></div></div>
+</div>	
+</div>	
+</div>	
+</div>	
+</div>
+
+<div class="top2">
+<div class="container">
+<div class="row">
+<div class="span12">
+<div class="top2_inner clearfix">
+<div class="navbar navbar_">
+	<div class="navbar-inner navbar-inner_">
+		<a class="btn btn-navbar btn-navbar_" data-toggle="collapse" data-target=".nav-collapse_">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</a>
+		<div class="nav-collapse nav-collapse_ collapse">
+			<ul class="nav sf-menu clearfix">
+<li><a href="index.html">Accueil</a></li>
+<li class="sub-menu sub-menu-1"><a href="quisommesnous.html">Qui sommes-nous</a>
+	<!-- <ul>
+		<li><a href="quisommesnous.html">about us</a></li>		
+		<li><a href="quisommesnous.html">news & events</a></li>	
+		<li><a href="404.html">404 page</a></li>					
+	</ul>	 -->					
+</li>
+<li><a href="lelogiciel.html">Le logiciel</a></li>
+<li><a href="lestarifs.html">Les tarifs</a></li>
+<li><a href="cequilsenpensent.html">Ce qu'ils en pensent</a></li>
+<li class="active"><a href="capturesdecran.html">Captures d'écran</a></li>
+<li><a href="contact.html">Contact</a></li>											
+<li class="last"></li>											
+    </ul>
+		</div>
+	</div>
+</div>
+</div>	
+</div>	
+</div>	
+</div>	
+</div>
+
+<div class="top3">
+<div class="container">
+<div class="row">
+<div class="span12">
+<div class="top3_inner clearfix">
+
+<div class="breadcrumbs1"><a href="index.html">Page d'accueil</a>&nbsp;&nbsp;&nbsp;<span>></span>&nbsp;&nbsp;&nbsp;Captures d'écran</div>
+
+</div>	
+</div>	
+</div>	
+</div>	
+</div>
+
+
+
+<div id="content">
+<div class="container">
+<div class="row">
+<div class="span12">
+	
+<h1 class="w2">Captures d'écran<b></b></h1>
+
+<div id="isotope-options">
+    <ul id="isotope-filters" class="clearfix">
+        <li><a href="#" class="selected" data-filter="*">Montrer tout</a></li> 
+        <li><a href="#" data-filter=".isotope-filter1">Fenêtres</a></li> 
+        <li><a href="#" data-filter=".isotope-filter2">Impressions</a></li> 
+        <li><a href="#" data-filter=".isotope-filter3">Usagers et droits</a></li> 	             
+    </ul>            
+</div>
+
+<ul class="thumbnails" id="isotope-items">		  
+    <li class="span3 isotope-element isotope-filter1">
+		<div class="thumb-isotope">
+			<div class="thumbnail clearfix">
+				<a href="images/menu.png">
+					<figure>
+						<img src="images/menu_220.png" alt=""><em></em>
+					</figure>
+					<div class="caption">							
+						menu principal avec tableau de bord
+					</div>
+				</a>				
+			</div>
+		</div>
+    </li>
+    <li class="span3 isotope-element isotope-filter1">
+		<div class="thumb-isotope">
+			<div class="thumbnail clearfix">
+				<a href="images/bon_entete.png">
+					<figure>
+						<img src="images/bon_entete_220.png" alt=""><em></em>
+					</figure>
+					<div class="caption">							
+						exemple d'un entête de bon de travail	
+					</div>
+				</a>				
+			</div>
+		</div>
+    </li>
+    <li class="span3 isotope-element isotope-filter1">
+		<div class="thumb-isotope">
+			<div class="thumbnail clearfix">
+				<a href="images/bon_detail.png">
+					<figure>
+						<img src="images/bon_detail_220.png" alt=""><em></em>
+					</figure>
+					<div class="caption">							
+						exemple de détails d'un bon de travail
+					</div>
+				</a>				
+			</div>
+		</div>
+    </li>
+    <li class="span3 isotope-element isotope-filter1">
+		<div class="thumb-isotope">
+			<div class="thumbnail clearfix">
+				<a href="images/note.png">
+					<figure>
+						<img src="images/note_220.png" alt=""><em></em>
+					</figure>
+					<div class="caption">							
+						exemple de notes
+					</div>
+				</a>				
+			</div>
+		</div>
+    </li>
+       <li class="span3 isotope-element isotope-filter1">
+		<div class="thumb-isotope">
+			<div class="thumbnail clearfix">
+				<a href="images/docexterne.png">
+					<figure>
+						<img src="images/docexterne_220.png" alt=""><em></em>
+					</figure>
+					<div class="caption">							
+						gestion des documents externes
+					</div>
+				</a>				
+			</div>
+		</div>
+    </li>
+       <li class="span3 isotope-element isotope-filter2">
+		<div class="thumb-isotope">
+			<div class="thumbnail clearfix">
+				<a href="images/bondetravail.png">
+					<figure>
+						<img src="images/bondetravail_220.png" alt=""><em></em>
+					</figure>
+					<div class="caption">							
+						exemple de bon de travail
+					</div>
+				</a>				
+			</div>
+		</div>
+    </li>
+    <li class="span3 isotope-element isotope-filter2">
+		<div class="thumb-isotope">
+			<div class="thumbnail clearfix">
+				<a href="images/facture.png">
+					<figure>
+						<img src="images/facture_220.png" alt=""><em></em>
+					</figure>
+					<div class="caption">							
+						exemple de facture détaillée
+					</div>
+				</a>				
+			</div>
+		</div>
+    </li>
+    <li class="span3 isotope-element isotope-filter2">
+		<div class="thumb-isotope">
+			<div class="thumbnail clearfix">
+				<a href="images/facture_sommaire.png">
+					<figure>
+						<img src="images/facture_sommaire_220.png" alt=""><em></em>
+					</figure>
+					<div class="caption">							
+						exemple de facture sommaire
+					</div>
+				</a>				
+			</div>
+		</div>
+    </li>
+    <li class="span3 isotope-element isotope-filter1">
+		<div class="thumb-isotope">
+			<div class="thumbnail clearfix">
+				<a href="images/planif.png">
+					<figure>
+						<img src="images/planif_220.png" alt=""><em></em>
+					</figure>
+					<div class="caption">							
+						exemple de planification des travaux
+					</div>
+				</a>				
+			</div>
+		</div>
+    </li>
+    <li class="span3 isotope-element isotope-filter1">
+		<div class="thumb-isotope">
+			<div class="thumbnail clearfix">
+				<a href="images/recherche.png">
+					<figure>
+						<img src="images/recherche_220.png" alt=""><em></em>
+					</figure>
+					<div class="caption">							
+						exemple de recherche
+					</div>
+				</a>				
+			</div>
+		</div>
+    </li>
+    <li class="span3 isotope-element isotope-filter3">
+		<div class="thumb-isotope">
+			<div class="thumbnail clearfix">
+				<a href="images/usager.png">
+					<figure>
+						<img src="images/usager_220.png" alt=""><em></em>
+					</figure>
+					<div class="caption">							
+						gestion des usagers
+					</div>
+				</a>				
+			</div>
+		</div>
+    </li>
+    <li class="span3 isotope-element isotope-filter3">
+		<div class="thumb-isotope">
+			<div class="thumbnail clearfix">
+				<a href="images/droits.png">
+					<figure>
+						<img src="images/droits_220.png" alt=""><em></em>
+					</figure>
+					<div class="caption">							
+						exemple des droits
+					</div>
+				</a>				
+			</div>
+		</div>
+    </li>
+    </ul>	
+
+
+</div>	
+</div>
+</div>	
+</div>
+
+<div class="bot1">
+<div class="container">
+<div class="row">
+<div class="span12">
+<div class="bot1_inner clearfix"></div>	
+
+<div class="banners">
+<div class="row">
+<div class="span3 banner banner1">
+<div class="banner_inner">
+<a href="lelogiciel.html">
+<div class="txt">
+	<div class="txt1">Vous êtes expert<br>en am&eacute;nagement et environnement</div>
+	<div class="txt2">Quelques soient votre domaine d'activit&eacute; le logicel de gestion i-Expert saura vous aider.</div>
+</div>		
+<img src="images/banner1.png" alt="" class="img">
+<div class="txt3">>><br>plus</div>
+</a>
+<img src="images/shadow1.png" alt="" class="sh1">	
+</div>	
+</div>	
+<div class="span3 banner banner2">
+<div class="banner_inner">
+<a href="lelogiciel.html">
+<div class="txt">
+	<div class="txt1">Vous êtes expert<br>en r&eacute;novation et en maintenance</div>
+	<div class="txt2">Quelques soient votre domaine d'activit&eacute; le logicel de gestion i-Expert saura vous aider.</div>
+</div>		
+<img src="images/banner2.png" alt="" class="img">
+<div class="txt3">>><br>plus</div>
+</a>
+<img src="images/shadow1.png" alt="" class="sh1">	
+</div>	
+</div>
+
+<div class="span3 banner banner3">
+<div class="banner_inner">
+<a href="lelogiciel.html">
+<div class="txt">
+	<div class="txt1">Vous êtes expert<br>apr&egrave;s-sinistre et en nettoyage</div>
+	<div class="txt2">Quelques soient votre domaine d'activit&eacute; le logicel de gestion i-Expert saura vous aider.</div>
+</div>		
+<img src="images/banner3.png" alt="" class="img">
+<div class="txt3">>><br>plus</div>
+</a>
+<img src="images/shadow1.png" alt="" class="sh1">	
+</div>	
+</div>	
+<div class="span3 banner banner4">
+<div class="banner_inner">
+<a href="lelogiciel.html">
+<div class="txt">
+	<div class="txt1">Vous êtes expert<br>en construction et en &eacute;b&eacute;nisterie</div>
+	<div class="txt2">Quelques soient votre domaine d'activit&eacute; le logicel de gestion i-Expert saura vous aider.</div>
+</div>		
+<img src="images/banner4.png" alt="" class="img">
+<div class="txt3">>><br>plus</div>
+</a>
+<img src="images/shadow1.png" alt="" class="sh1">	
+</div>	
+</div>
+
+</div>
+
+</div>
+
+</div>	
+</div>	
+</div>	
+</div>
+
+<div class="bot2">
+<div class="container">
+<div class="row">
+<div class="span12">
+<div class="bot2_inner clearfix">
+<div class="row">
+<div class="span3">
+
+
+
+</footer>	
+</div>
+<div class="span3">
+<div class="bot2_title">Contact:</div>	
+<div class="phone2">
+<div class="txt2">1 888 824-7474</div>
+<div class="txt1"><a href="#">info@i-expert.ca</a></div>	
+</div>
+</div>
+<div class="span3">
+<footer>
+<div class="logo2_wrapper"><a href="index.html" class="logo2"><img src="images/logo2.png" alt=""></a></div>	
+<div class="copyright">Tous droits r&eacute;serv&eacute;s et créé par:<br><a href="http://logicus.qc.ca" target="_blank">Logicus Informatique inc.</a></div>
+</div>	
+</div>	
+</div>	
+</div>	
+</div>	
+</div>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+</body>
+</html>
